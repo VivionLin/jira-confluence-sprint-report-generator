@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jquery-3.6.3.min.js"></script>
+    <script src="popup.js"></script>
+    <style type="text/css">
+      div {
+        width:  400px;
+        display: flex;
+        justify-content: space-between;
+      }
+      input {
+        width:  250px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <label>Jira Domain</label>
+      <input type="text" id="jira-domain" />
+    </div>
+    <div>
+      <label>Jira Project Name</label>
+      <input type="text" id="project-name" />
+    </div>
+    <div>
+      <label>Jira Sprint Id</label>
+      <input type="text" id="sprint-id" />
+    </div>
+    <div>
+      <label>Jira Story Point Field</label>
+      <input type="text" id="story-point-field" />
+    </div>
+    <hr/>
+    <div>
+      <label>Confluence Domain</label>
+      <input type="text" id="confluence-domain" />
+    </div>
+    <div>
+      <label>Confluence Space Key</label>
+      <input type="text" id="space-key" />
+    </div>
+    <div>
+      <label>Confluence Parent Page Id</label>
+      <input type="text" id="parent-page-id" />
+    </div>
+    
+    <button id="gen-page">Create Sprint Report Page</button>
+    <p id="msg" style="display: none"></p>
+  </body>
+</html>

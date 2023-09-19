@@ -1,0 +1,19 @@
+{
+  "name": "Sprint Report Helper",
+  "description": "Help to create sprint report page according to Jira's sprint stories",
+  "version": "1.1",
+  "author": "Vivion Lin",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Sprint Report Helper",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://xxx.atlassian.net/*"
+  ]
+}
